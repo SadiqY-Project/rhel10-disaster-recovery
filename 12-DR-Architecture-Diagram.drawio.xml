@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="-H4XuFjA_ICQEgHXtLvG">
+    <mxGraphModel dx="911" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-3" edge="1" parent="1" source="WI5CmWmwX9oKVpOj4uVh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="WI5CmWmwX9oKVpOj4uVh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/File.svg;" value="&lt;div&gt;Blueprint File (rhel10.toml)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Contains: tar, tmux, firewalld&lt;/div&gt;" vertex="1">
+          <mxGeometry height="69" width="56.00000000000001" x="90" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-6" edge="1" parent="1" source="WI5CmWmwX9oKVpOj4uVh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="WI5CmWmwX9oKVpOj4uVh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-2" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="Build Server (osbuild-composer)" vertex="1">
+          <mxGeometry height="80" width="80" x="410" y="104.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="composer-cli push" vertex="1">
+          <mxGeometry height="30" width="120" x="220" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-5" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.hard_disk;" value="Gold Image (.qcow2)" vertex="1">
+          <mxGeometry height="54" width="40" x="760" y="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="compose start" vertex="1">
+          <mxGeometry height="30" width="100" x="580" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-9" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.folder;fillColor=#2072B8;" value="Live System (/etc)" vertex="1">
+          <mxGeometry height="45" width="50" x="90" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-19" edge="1" parent="1" source="WI5CmWmwX9oKVpOj4uVh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;" target="WI5CmWmwX9oKVpOj4uVh-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="407" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-10" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.box;" value="Encrypted Backup (.tar.gz)" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="WI5CmWmwX9oKVpOj4uVh-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-21" edge="1" parent="1" source="WI5CmWmwX9oKVpOj4uVh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;dashed=1;" target="WI5CmWmwX9oKVpOj4uVh-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="410" />
+            </Array>
+            <mxPoint x="327" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-13" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.folder;fillColor=#2072B8;" value="Staging Area (/restore-staging)" vertex="1">
+          <mxGeometry height="45" width="50" x="527" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="tar -xzvf" vertex="1">
+          <mxGeometry height="30" width="60" x="297" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Safe Copy (cp)" vertex="1">
+          <mxGeometry height="30" width="60" x="297" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="150" width="820" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="270" width="620" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Automated Image Provisioning" vertex="1">
+          <mxGeometry height="30" width="190" x="360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Enterprise Disaster Recovery" vertex="1">
+          <mxGeometry height="30" width="170" x="270" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WI5CmWmwX9oKVpOj4uVh-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="tar -czvf" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
